@@ -1,0 +1,62 @@
+services:
+  party:
+    build: .
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    init: true
+    restart: unless-stopped
+    ports:
+      - "${PARTY_BIND_ADDRESS:-127.0.0.1}:${PORT:-2567}:2567"
+    environment:
+      DATABASE_URL: "mysql://party:${PARTY_MYSQL_PASSWORD:?Set a URL-safe MySQL password}@mysql:3306/party"
+      REDIS_URL: redis://redis:6379
+      PARTY_REDIS_PREFIX: "${PARTY_REDIS_PREFIX:-party:production}"
+      PARTY_MAINTENANCE: "${PARTY_MAINTENANCE:-0}"
+      PARTY_MAINTENANCE_MESSAGE: "${PARTY_MAINTENANCE_MESSAGE:-}"
+      PARTY_DRAIN_SECONDS: "${PARTY_DRAIN_SECONDS:-45}"
+      PARTY_API_REQUESTS_PER_MINUTE: "${PARTY_API_REQUESTS_PER_MINUTE:-240}"
+      PARTY_TRUST_PROXY_HOPS: "${PARTY_TRUST_PROXY_HOPS:-0}"
+      ALLOWED_ORIGINS: "${ALLOWED_ORIGINS:-}"
+      PARTY_ADMIN_KEY: "${PARTY_ADMIN_KEY:-}"
+      PARTY_CONTENT_STAGE: /app/data/next-bundle.json
+      PARTY_CONTENT_BUNDLE: "${PARTY_CONTENT_BUNDLE:-/app/content/party-bundle.json}"
+    volumes:
+      - ../Exports/Server:/app/content:ro
+      - party-data:/app/data
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop:
+      - ALL
+    stop_grace_period: 60s
+  mysql:
+    image: mysql:8.4
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: party
+      MYSQL_USER: party
+      MYSQL_PASSWORD: "${PARTY_MYSQL_PASSWORD:?Set a URL-safe MySQL password}"
+      MYSQL_ROOT_PASSWORD: "${PARTY_MYSQL_ROOT_PASSWORD:?Set a distinct root password}"
+    volumes:
+      - party-mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 --silent"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+  redis:
+    image: redis:7.4-alpine
+    restart: unless-stopped
+    command:
+      ["redis-server", "--save", "", "--appendonly", "no", "--maxmemory", "256mb", "--maxmemory-policy", "noeviction"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+volumes:
+  party-mysql-data:
+  party-data:

@@ -1,0 +1,2 @@
+# Prettier formats with LF; keep the server checkout LF on every platform.
+* text=auto eol=lf

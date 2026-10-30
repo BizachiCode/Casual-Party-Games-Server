@@ -1,0 +1,59 @@
+{
+  "private": true,
+  "name": "casual-party-server",
+  "version": "1.0.0",
+  "description": "Authoritative Colyseus server for the Casual Party Games Template (Unity)",
+  "type": "module",
+  "main": "build/index.js",
+  "engines": {
+    "node": ">= 22.13.0"
+  },
+  "scripts": {
+    "start": "tsx watch src/index.ts",
+    "build": "npm run clean && tsc -p tsconfig.build.json",
+    "start:prod": "node build/index.js",
+    "clean": "rimraf build",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "mocha",
+    "test:container": "tsx test/integration/container-smoke.ts",
+    "content": "tsx src/modules/content/content.cli.ts",
+    "db": "tsx src/infrastructure/database/backup.cli.ts",
+    "loadtest": "tsx loadtest/match.ts --room party --numClients 4"
+  },
+  "author": "BizachiCode",
+  "license": "MIT",
+  "dependencies": {
+    "@apple/app-store-server-library": "3.1.0",
+    "@colyseus/schema": "5.0.42",
+    "@colyseus/tools": "0.18.10",
+    "@colyseus/ws-transport": "0.18.4",
+    "colyseus": "0.18.10",
+    "express": "5.1.0",
+    "mysql2": "3.24.6",
+    "redis": "6.3.0",
+    "reflect-metadata": "0.2.2",
+    "typeorm": "1.1.2",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@colyseus/loadtest": "0.18.3",
+    "@colyseus/sdk": "0.18.6",
+    "@colyseus/testing": "0.18.6",
+    "@eslint/js": "9.39.5",
+    "@types/express": "5.0.6",
+    "@types/mocha": "10.0.10",
+    "@types/node": "22.20.5",
+    "eslint": "9.39.5",
+    "eslint-config-prettier": "10.1.8",
+    "globals": "17.13.0",
+    "mocha": "11.8.0",
+    "prettier": "3.9.10",
+    "rimraf": "6.1.3",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.72.1"
+  }
+}

@@ -1,0 +1,219 @@
+{
+    "version": 1,
+    "initialCredits": 300,
+    "dailyCredits": 100,
+    "starterId": "rookie",
+    "currency": "Stars",
+    "characters": [
+        {
+            "id": "rookie",
+            "name": "Rookie",
+            "rarity": "common",
+            "accessory": "",
+            "color": [
+                1.0,
+                0.7300000190734863,
+                0.07999999821186066
+            ],
+            "duplicateShards": 5,
+            "craftCost": 50
+        },
+        {
+            "id": "coral",
+            "name": "Coral Cruiser",
+            "rarity": "common",
+            "accessory": "cap",
+            "color": [
+                1.0,
+                0.3499999940395355,
+                0.44999998807907107
+            ],
+            "duplicateShards": 5,
+            "craftCost": 50
+        },
+        {
+            "id": "mint",
+            "name": "Mint Hopper",
+            "rarity": "common",
+            "accessory": "",
+            "color": [
+                0.25,
+                0.8999999761581421,
+                0.6499999761581421
+            ],
+            "duplicateShards": 5,
+            "craftCost": 50
+        },
+        {
+            "id": "bubble",
+            "name": "Bubble Bean",
+            "rarity": "common",
+            "accessory": "visor",
+            "color": [
+                0.30000001192092898,
+                0.6499999761581421,
+                1.0
+            ],
+            "duplicateShards": 5,
+            "craftCost": 50
+        },
+        {
+            "id": "violet",
+            "name": "Violet Bolt",
+            "rarity": "common",
+            "accessory": "cap",
+            "color": [
+                0.6499999761581421,
+                0.4000000059604645,
+                1.0
+            ],
+            "duplicateShards": 5,
+            "craftCost": 50
+        },
+        {
+            "id": "astro",
+            "name": "Astro Runner",
+            "rarity": "rare",
+            "accessory": "visor",
+            "color": [
+                0.800000011920929,
+                0.8500000238418579,
+                1.0
+            ],
+            "duplicateShards": 15,
+            "craftCost": 150
+        },
+        {
+            "id": "sunny",
+            "name": "Sunny Sprint",
+            "rarity": "rare",
+            "accessory": "halo",
+            "color": [
+                1.0,
+                0.5,
+                0.10000000149011612
+            ],
+            "duplicateShards": 15,
+            "craftCost": 150
+        },
+        {
+            "id": "frost",
+            "name": "Frost Fox",
+            "rarity": "rare",
+            "accessory": "ears",
+            "color": [
+                0.30000001192092898,
+                1.0,
+                1.0
+            ],
+            "duplicateShards": 15,
+            "craftCost": 150
+        },
+        {
+            "id": "robot",
+            "name": "Robo Racer",
+            "rarity": "rare",
+            "accessory": "visor",
+            "color": [
+                0.550000011920929,
+                0.6000000238418579,
+                0.699999988079071
+            ],
+            "duplicateShards": 15,
+            "craftCost": 150
+        },
+        {
+            "id": "neon",
+            "name": "Neon Ninja",
+            "rarity": "epic",
+            "accessory": "ears",
+            "color": [
+                0.30000001192092898,
+                1.0,
+                0.4000000059604645
+            ],
+            "duplicateShards": 50,
+            "craftCost": 500
+        },
+        {
+            "id": "comet",
+            "name": "Comet Captain",
+            "rarity": "epic",
+            "accessory": "halo",
+            "color": [
+                1.0,
+                0.20000000298023225,
+                0.75
+            ],
+            "duplicateShards": 50,
+            "craftCost": 500
+        },
+        {
+            "id": "moon",
+            "name": "Moon Knight",
+            "rarity": "epic",
+            "accessory": "cap",
+            "color": [
+                0.30000001192092898,
+                0.3499999940395355,
+                0.8999999761581421
+            ],
+            "duplicateShards": 50,
+            "craftCost": 500
+        },
+        {
+            "id": "crown",
+            "name": "Crown Champion",
+            "rarity": "legendary",
+            "accessory": "crown",
+            "color": [
+                1.0,
+                0.800000011920929,
+                0.15000000596046449
+            ],
+            "duplicateShards": 150,
+            "craftCost": 1500
+        },
+        {
+            "id": "nova",
+            "name": "Nova Legend",
+            "rarity": "legendary",
+            "accessory": "crown",
+            "color": [
+                0.8500000238418579,
+                0.5,
+                1.0
+            ],
+            "duplicateShards": 150,
+            "craftCost": 1500
+        }
+    ],
+    "banners": [
+        {
+            "id": "standard",
+            "title": "Party Collection",
+            "cost": 100,
+            "tenCost": 900,
+            "epicPity": 10,
+            "legendaryPity": 50,
+            "weights": [
+                {
+                    "rarity": "common",
+                    "weight": 75
+                },
+                {
+                    "rarity": "rare",
+                    "weight": 20
+                },
+                {
+                    "rarity": "epic",
+                    "weight": 4
+                },
+                {
+                    "rarity": "legendary",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

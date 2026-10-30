@@ -1,0 +1,6 @@
+build
+node_modules
+data
+package-lock.json
+*.md
+game_config/*.json

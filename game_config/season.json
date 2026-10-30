@@ -1,0 +1,879 @@
+{
+    "version": 2,
+    "seasons": [
+        {
+            "id": "s1",
+            "title": "Splash Season",
+            "startsAt": "2026-10-01T00:00:00.000Z",
+            "endsAt": "2026-12-01T00:00:00.000Z",
+            "matchXp": 100,
+            "winBonus": 50,
+            "dailyMatchCap": 10,
+            "minimumParticipants": 1,
+            "claimGraceDays": 7,
+            "premium": {
+                "currency": "credits",
+                "cost": 1500
+            },
+            "tiers": [
+                {
+                    "id": "tier-01",
+                    "xp": 150,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-02",
+                    "xp": 310,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-03",
+                    "xp": 480,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-04",
+                    "xp": 660,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-05",
+                    "xp": 855,
+                    "free": {
+                        "credits": 150,
+                        "shards": 5,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 25,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-06",
+                    "xp": 1055,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-07",
+                    "xp": 1265,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-08",
+                    "xp": 1490,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-09",
+                    "xp": 1720,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-10",
+                    "xp": 1965,
+                    "free": {
+                        "credits": 150,
+                        "shards": 5,
+                        "characterId": "astro"
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 25,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-11",
+                    "xp": 2220,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-12",
+                    "xp": 2485,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-13",
+                    "xp": 2755,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-14",
+                    "xp": 3040,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-15",
+                    "xp": 3335,
+                    "free": {
+                        "credits": 150,
+                        "shards": 5,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 25,
+                        "characterId": "neon"
+                    }
+                },
+                {
+                    "id": "tier-16",
+                    "xp": 3640,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-17",
+                    "xp": 3955,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-18",
+                    "xp": 4285,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-19",
+                    "xp": 4620,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-20",
+                    "xp": 4965,
+                    "free": {
+                        "credits": 150,
+                        "shards": 5,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 25,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-21",
+                    "xp": 5320,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-22",
+                    "xp": 5690,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-23",
+                    "xp": 6065,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-24",
+                    "xp": 6455,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-25",
+                    "xp": 6855,
+                    "free": {
+                        "credits": 150,
+                        "shards": 5,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 25,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-26",
+                    "xp": 7260,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-27",
+                    "xp": 7680,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-28",
+                    "xp": 8110,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-29",
+                    "xp": 8550,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-30",
+                    "xp": 9000,
+                    "free": {
+                        "credits": 150,
+                        "shards": 5,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 25,
+                        "characterId": "crown"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "s2",
+            "title": "Frost Season",
+            "startsAt": "2026-12-01T00:00:00.000Z",
+            "endsAt": "2027-02-01T00:00:00.000Z",
+            "matchXp": 100,
+            "winBonus": 50,
+            "dailyMatchCap": 10,
+            "minimumParticipants": 1,
+            "claimGraceDays": 7,
+            "premium": {
+                "currency": "credits",
+                "cost": 1500
+            },
+            "tiers": [
+                {
+                    "id": "tier-01",
+                    "xp": 150,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-02",
+                    "xp": 310,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-03",
+                    "xp": 480,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-04",
+                    "xp": 660,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-05",
+                    "xp": 855,
+                    "free": {
+                        "credits": 150,
+                        "shards": 5,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 25,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-06",
+                    "xp": 1055,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-07",
+                    "xp": 1265,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-08",
+                    "xp": 1490,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-09",
+                    "xp": 1720,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-10",
+                    "xp": 1965,
+                    "free": {
+                        "credits": 150,
+                        "shards": 5,
+                        "characterId": "frost"
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 25,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-11",
+                    "xp": 2220,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-12",
+                    "xp": 2485,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-13",
+                    "xp": 2755,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-14",
+                    "xp": 3040,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-15",
+                    "xp": 3335,
+                    "free": {
+                        "credits": 150,
+                        "shards": 5,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 25,
+                        "characterId": "comet"
+                    }
+                },
+                {
+                    "id": "tier-16",
+                    "xp": 3640,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-17",
+                    "xp": 3955,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-18",
+                    "xp": 4285,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-19",
+                    "xp": 4620,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-20",
+                    "xp": 4965,
+                    "free": {
+                        "credits": 150,
+                        "shards": 5,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 25,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-21",
+                    "xp": 5320,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-22",
+                    "xp": 5690,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-23",
+                    "xp": 6065,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-24",
+                    "xp": 6455,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-25",
+                    "xp": 6855,
+                    "free": {
+                        "credits": 150,
+                        "shards": 5,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 25,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-26",
+                    "xp": 7260,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-27",
+                    "xp": 7680,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-28",
+                    "xp": 8110,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-29",
+                    "xp": 8550,
+                    "free": {
+                        "credits": 50,
+                        "shards": 0,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 10,
+                        "characterId": ""
+                    }
+                },
+                {
+                    "id": "tier-30",
+                    "xp": 9000,
+                    "free": {
+                        "credits": 150,
+                        "shards": 5,
+                        "characterId": ""
+                    },
+                    "premium": {
+                        "credits": 100,
+                        "shards": 25,
+                        "characterId": "nova"
+                    }
+                }
+            ]
+        }
+    ]
+}

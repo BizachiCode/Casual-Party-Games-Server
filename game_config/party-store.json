@@ -1,0 +1,80 @@
+{
+    "version": 1,
+    "demoPurchases": true,
+    "allowTestPurchases": true,
+    "googlePackageName": "com.bizachicode.casualparty",
+    "appleBundleId": "com.bizachicode.casualparty",
+    "appleAppId": 0,
+    "products": [
+        {
+            "id": "starter_bundle",
+            "productId": "com.bizachicode.casualparty.starter_bundle",
+            "stars": 1500,
+            "bonusStars": 0,
+            "shards": 300,
+            "priceUsd": 2.99,
+            "oncePerAccount": true,
+            "badge": "starter"
+        },
+        {
+            "id": "stars_pouch",
+            "productId": "com.bizachicode.casualparty.stars_pouch",
+            "stars": 500,
+            "bonusStars": 0,
+            "shards": 0,
+            "priceUsd": 0.99,
+            "oncePerAccount": false,
+            "badge": ""
+        },
+        {
+            "id": "stars_sack",
+            "productId": "com.bizachicode.casualparty.stars_sack",
+            "stars": 1000,
+            "bonusStars": 100,
+            "shards": 0,
+            "priceUsd": 1.99,
+            "oncePerAccount": false,
+            "badge": ""
+        },
+        {
+            "id": "stars_chest",
+            "productId": "com.bizachicode.casualparty.stars_chest",
+            "stars": 2500,
+            "bonusStars": 500,
+            "shards": 0,
+            "priceUsd": 4.99,
+            "oncePerAccount": false,
+            "badge": "popular"
+        },
+        {
+            "id": "stars_crate",
+            "productId": "com.bizachicode.casualparty.stars_crate",
+            "stars": 5000,
+            "bonusStars": 1500,
+            "shards": 0,
+            "priceUsd": 9.99,
+            "oncePerAccount": false,
+            "badge": ""
+        },
+        {
+            "id": "stars_vault",
+            "productId": "com.bizachicode.casualparty.stars_vault",
+            "stars": 10000,
+            "bonusStars": 4000,
+            "shards": 0,
+            "priceUsd": 19.99,
+            "oncePerAccount": false,
+            "badge": ""
+        },
+        {
+            "id": "stars_mountain",
+            "productId": "com.bizachicode.casualparty.stars_mountain",
+            "stars": 25000,
+            "bonusStars": 15000,
+            "shards": 0,
+            "priceUsd": 49.99,
+            "oncePerAccount": false,
+            "badge": "best_value"
+        }
+    ]
+}

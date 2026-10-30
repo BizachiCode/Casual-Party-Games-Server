@@ -1,0 +1,326 @@
+{
+    "version": 1,
+    "queues": [
+        {
+            "id": "tournament",
+            "mode": "tournament",
+            "players": {
+                "min": 4,
+                "max": 32
+            },
+            "search": {
+                "seconds": 3.0,
+                "startShort": true
+            },
+            "bots": {
+                "fill": true,
+                "max": 22
+            },
+            "lobby": {
+                "seconds": 10.0,
+                "readyCheck": false,
+                "startWhenFull": true,
+                "hostStart": false
+            },
+            "backfill": {
+                "enabled": true,
+                "minLobbySeconds": 3.0
+            },
+            "rules": {
+                "skill": {
+                    "enabled": true,
+                    "metric": "level",
+                    "range": 5.0,
+                    "widenPerSecond": 1.0,
+                    "maxRange": 40.0
+                },
+                "region": {
+                    "enabled": true,
+                    "relaxSeconds": 15.0
+                },
+                "account": {
+                    "enabled": false,
+                    "required": false
+                }
+            }
+        },
+        {
+            "id": "race",
+            "mode": "race",
+            "players": {
+                "min": 2,
+                "max": 16
+            },
+            "search": {
+                "seconds": 3.0,
+                "startShort": true
+            },
+            "bots": {
+                "fill": true,
+                "max": -1
+            },
+            "lobby": {
+                "seconds": 8.0,
+                "readyCheck": false,
+                "startWhenFull": true,
+                "hostStart": false
+            },
+            "backfill": {
+                "enabled": true,
+                "minLobbySeconds": 3.0
+            },
+            "rules": {
+                "skill": {
+                    "enabled": true,
+                    "metric": "level",
+                    "range": 5.0,
+                    "widenPerSecond": 1.0,
+                    "maxRange": 40.0
+                },
+                "region": {
+                    "enabled": true,
+                    "relaxSeconds": 10.0
+                },
+                "account": {
+                    "enabled": false,
+                    "required": false
+                }
+            }
+        },
+        {
+            "id": "survival",
+            "mode": "survival",
+            "players": {
+                "min": 2,
+                "max": 16
+            },
+            "search": {
+                "seconds": 3.0,
+                "startShort": true
+            },
+            "bots": {
+                "fill": true,
+                "max": -1
+            },
+            "lobby": {
+                "seconds": 8.0,
+                "readyCheck": false,
+                "startWhenFull": true,
+                "hostStart": false
+            },
+            "backfill": {
+                "enabled": true,
+                "minLobbySeconds": 3.0
+            },
+            "rules": {
+                "skill": {
+                    "enabled": false,
+                    "metric": "level",
+                    "range": 5.0,
+                    "widenPerSecond": 1.0,
+                    "maxRange": 40.0
+                },
+                "region": {
+                    "enabled": true,
+                    "relaxSeconds": 10.0
+                },
+                "account": {
+                    "enabled": false,
+                    "required": false
+                }
+            }
+        },
+        {
+            "id": "arcade",
+            "mode": "arcade",
+            "players": {
+                "min": 1,
+                "max": 8
+            },
+            "search": {
+                "seconds": 2.0,
+                "startShort": true
+            },
+            "bots": {
+                "fill": true,
+                "max": -1
+            },
+            "lobby": {
+                "seconds": 6.0,
+                "readyCheck": false,
+                "startWhenFull": true,
+                "hostStart": false
+            },
+            "backfill": {
+                "enabled": true,
+                "minLobbySeconds": 2.0
+            },
+            "rules": {
+                "skill": {
+                    "enabled": false,
+                    "metric": "level",
+                    "range": 5.0,
+                    "widenPerSecond": 1.0,
+                    "maxRange": 40.0
+                },
+                "region": {
+                    "enabled": false,
+                    "relaxSeconds": 10.0
+                },
+                "account": {
+                    "enabled": false,
+                    "required": false
+                }
+            }
+        },
+        {
+            "id": "timeTrial",
+            "mode": "timeTrial",
+            "players": {
+                "min": 1,
+                "max": 1
+            },
+            "search": {
+                "seconds": 0.0,
+                "startShort": true
+            },
+            "bots": {
+                "fill": false,
+                "max": 0
+            },
+            "lobby": {
+                "seconds": 3.0,
+                "readyCheck": false,
+                "startWhenFull": false,
+                "hostStart": false
+            },
+            "backfill": {
+                "enabled": false,
+                "minLobbySeconds": 0.0
+            },
+            "rules": {
+                "skill": {
+                    "enabled": false,
+                    "metric": "level",
+                    "range": 5.0,
+                    "widenPerSecond": 1.0,
+                    "maxRange": 40.0
+                },
+                "region": {
+                    "enabled": false,
+                    "relaxSeconds": 10.0
+                },
+                "account": {
+                    "enabled": false,
+                    "required": false
+                }
+            }
+        },
+        {
+            "id": "duos",
+            "mode": "duos",
+            "players": {
+                "min": 4,
+                "max": 16
+            },
+            "search": {
+                "seconds": 5.0,
+                "startShort": true
+            },
+            "bots": {
+                "fill": true,
+                "max": -1
+            },
+            "lobby": {
+                "seconds": 12.0,
+                "readyCheck": false,
+                "startWhenFull": true,
+                "hostStart": false
+            },
+            "backfill": {
+                "enabled": true,
+                "minLobbySeconds": 4.0
+            },
+            "rules": {
+                "skill": {
+                    "enabled": true,
+                    "metric": "level",
+                    "range": 8.0,
+                    "widenPerSecond": 1.0,
+                    "maxRange": 40.0
+                },
+                "region": {
+                    "enabled": false,
+                    "relaxSeconds": 10.0
+                },
+                "account": {
+                    "enabled": false,
+                    "required": false
+                }
+            }
+        },
+        {
+            "id": "squads",
+            "mode": "squads",
+            "players": {
+                "min": 4,
+                "max": 16
+            },
+            "search": {
+                "seconds": 5.0,
+                "startShort": true
+            },
+            "bots": {
+                "fill": true,
+                "max": -1
+            },
+            "lobby": {
+                "seconds": 12.0,
+                "readyCheck": false,
+                "startWhenFull": true,
+                "hostStart": false
+            },
+            "backfill": {
+                "enabled": true,
+                "minLobbySeconds": 4.0
+            },
+            "rules": {
+                "skill": {
+                    "enabled": true,
+                    "metric": "level",
+                    "range": 8.0,
+                    "widenPerSecond": 1.0,
+                    "maxRange": 40.0
+                },
+                "region": {
+                    "enabled": false,
+                    "relaxSeconds": 10.0
+                },
+                "account": {
+                    "enabled": false,
+                    "required": false
+                }
+            }
+        }
+    ],
+    "privateRooms": {
+        "listed": true,
+        "players": {
+            "min": 1,
+            "max": 32
+        },
+        "bots": {
+            "fill": false,
+            "max": 22
+        },
+        "lobby": {
+            "seconds": 0.0,
+            "readyCheck": false,
+            "startWhenFull": true,
+            "hostStart": true
+        }
+    },
+    "parties": {
+        "maxMembers": 4
+    }
+}

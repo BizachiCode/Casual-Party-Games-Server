@@ -1,0 +1,114 @@
+{
+    "version": 1,
+    "events": [
+        {
+            "id": "slime-weekend",
+            "title": "Slime Weekend",
+            "startsAt": "2026-10-30T00:00:00.000Z",
+            "endsAt": "2026-11-02T00:00:00.000Z",
+            "repeatDays": 7,
+            "queue": "race",
+            "playlist": "slime-cup",
+            "courseId": "slime-slalom",
+            "minLevel": 1,
+            "goals": [
+                {
+                    "id": "play",
+                    "title": "Play 3 event matches",
+                    "metric": "matches",
+                    "target": 3,
+                    "credits": 150,
+                    "shards": 0,
+                    "passXp": 300,
+                    "characterId": ""
+                },
+                {
+                    "id": "win",
+                    "title": "Win an event match",
+                    "metric": "wins",
+                    "target": 1,
+                    "credits": 300,
+                    "shards": 10,
+                    "passXp": 500,
+                    "characterId": ""
+                }
+            ]
+        },
+        {
+            "id": "timber-rush",
+            "title": "Timber Rush",
+            "startsAt": "2026-10-27T00:00:00.000Z",
+            "endsAt": "2026-11-10T00:00:00.000Z",
+            "repeatDays": 0,
+            "queue": "race",
+            "playlist": "slide-cup",
+            "courseId": "timber-falls",
+            "minLevel": 1,
+            "goals": [
+                {
+                    "id": "play",
+                    "title": "Play 5 event matches",
+                    "metric": "matches",
+                    "target": 5,
+                    "credits": 200,
+                    "shards": 0,
+                    "passXp": 400,
+                    "characterId": ""
+                },
+                {
+                    "id": "win",
+                    "title": "Win 2 event matches",
+                    "metric": "wins",
+                    "target": 2,
+                    "credits": 400,
+                    "shards": 15,
+                    "passXp": 600,
+                    "characterId": ""
+                },
+                {
+                    "id": "champion",
+                    "title": "Win 5 event matches",
+                    "metric": "wins",
+                    "target": 5,
+                    "credits": 600,
+                    "shards": 25,
+                    "passXp": 800,
+                    "characterId": "robot"
+                }
+            ]
+        },
+        {
+            "id": "survival-showdown",
+            "title": "Survival Showdown",
+            "startsAt": "2026-10-28T00:00:00.000Z",
+            "endsAt": "2026-10-29T00:00:00.000Z",
+            "repeatDays": 7,
+            "queue": "survival",
+            "playlist": "",
+            "courseId": "punch-party",
+            "minLevel": 1,
+            "goals": [
+                {
+                    "id": "play",
+                    "title": "Play 2 event matches",
+                    "metric": "matches",
+                    "target": 2,
+                    "credits": 100,
+                    "shards": 0,
+                    "passXp": 200,
+                    "characterId": ""
+                },
+                {
+                    "id": "win",
+                    "title": "Win an event match",
+                    "metric": "wins",
+                    "target": 1,
+                    "credits": 250,
+                    "shards": 10,
+                    "passXp": 500,
+                    "characterId": ""
+                }
+            ]
+        }
+    ]
+}

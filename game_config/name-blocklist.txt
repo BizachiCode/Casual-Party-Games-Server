@@ -1,0 +1,3 @@
+# Words display names may not contain, one per line (lower case; accents and 0 1 3 4 5 7 @ $ are folded). Lines that
+# start with # are comments. A built-in list of common slurs and profanity in English, Portuguese and Spanish always
+# applies; add your own words here. Restart the server after editing.

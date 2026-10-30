@@ -1,0 +1,165 @@
+{
+    "version": 1,
+    "goals": [
+        {
+            "id": "daily-finish",
+            "title": "Finish a match",
+            "scope": "daily",
+            "metric": "matches",
+            "target": 1,
+            "credits": 75,
+            "xp": 25,
+            "passXp": 100
+        },
+        {
+            "id": "daily-three",
+            "title": "Finish three matches",
+            "scope": "daily",
+            "metric": "matches",
+            "target": 3,
+            "credits": 150,
+            "xp": 75,
+            "passXp": 150
+        },
+        {
+            "id": "daily-win",
+            "title": "Win a match",
+            "scope": "daily",
+            "metric": "wins",
+            "target": 1,
+            "credits": 150,
+            "xp": 100,
+            "passXp": 200
+        },
+        {
+            "id": "daily-team",
+            "title": "Complete a team cup",
+            "scope": "daily",
+            "metric": "teams",
+            "target": 1,
+            "credits": 100,
+            "xp": 50,
+            "passXp": 150
+        },
+        {
+            "id": "first-finish",
+            "title": "First finish",
+            "scope": "achievement",
+            "metric": "matches",
+            "target": 1,
+            "credits": 100,
+            "xp": 50,
+            "passXp": 0
+        },
+        {
+            "id": "ten-matches",
+            "title": "Regular runner",
+            "scope": "achievement",
+            "metric": "matches",
+            "target": 10,
+            "credits": 300,
+            "xp": 100,
+            "passXp": 0
+        },
+        {
+            "id": "fifty-matches",
+            "title": "Party veteran",
+            "scope": "achievement",
+            "metric": "matches",
+            "target": 50,
+            "credits": 1000,
+            "xp": 250,
+            "passXp": 0
+        },
+        {
+            "id": "first-crown",
+            "title": "First crown",
+            "scope": "achievement",
+            "metric": "wins",
+            "target": 1,
+            "credits": 200,
+            "xp": 100,
+            "passXp": 0
+        },
+        {
+            "id": "ten-crowns",
+            "title": "Crown collector",
+            "scope": "achievement",
+            "metric": "wins",
+            "target": 10,
+            "credits": 1000,
+            "xp": 300,
+            "passXp": 0
+        },
+        {
+            "id": "five-skins",
+            "title": "Costume closet",
+            "scope": "achievement",
+            "metric": "collection",
+            "target": 5,
+            "credits": 300,
+            "xp": 50,
+            "passXp": 0
+        },
+        {
+            "id": "ten-skins",
+            "title": "Wardrobe master",
+            "scope": "achievement",
+            "metric": "collection",
+            "target": 10,
+            "credits": 600,
+            "xp": 100,
+            "passXp": 0
+        },
+        {
+            "id": "level-five",
+            "title": "Rising star",
+            "scope": "achievement",
+            "metric": "level",
+            "target": 5,
+            "credits": 400,
+            "xp": 100,
+            "passXp": 0
+        },
+        {
+            "id": "daily-five",
+            "title": "Finish five matches",
+            "scope": "daily",
+            "metric": "matches",
+            "target": 5,
+            "credits": 250,
+            "xp": 100,
+            "passXp": 150
+        },
+        {
+            "id": "weekly-ten",
+            "title": "Finish ten matches this week",
+            "scope": "weekly",
+            "metric": "matches",
+            "target": 10,
+            "credits": 400,
+            "xp": 50,
+            "passXp": 500
+        },
+        {
+            "id": "weekly-wins",
+            "title": "Win three matches this week",
+            "scope": "weekly",
+            "metric": "wins",
+            "target": 3,
+            "credits": 500,
+            "xp": 100,
+            "passXp": 600
+        },
+        {
+            "id": "weekly-teams",
+            "title": "Complete three team cups this week",
+            "scope": "weekly",
+            "metric": "teams",
+            "target": 3,
+            "credits": 300,
+            "xp": 50,
+            "passXp": 400
+        }
+    ]
+}
